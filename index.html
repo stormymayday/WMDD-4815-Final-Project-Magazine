@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>TechNews | Home</title>
+</head>
+
+<body>
+
+    <!-- Header - start -->
+    <header id="home">
+
+        <!-- Navbar - start -->
+        <nav class="navbar">
+
+            <!-- .nav-center - start -->
+            <div class="nav-center">
+
+                <!-- .nav-header - start -->
+                <div class="nav-header">
+
+                    <a class="logo" href="./index.html"><span>tech</span>News</a>
+
+                    <!-- Hamburger Menu button - start -->
+                    <button class="nav-toggle" id="nav-toggle" aria-hidden="true" aria-label="hamburger menu button">
+
+                        <i class="fas fa-bars"></i>
+
+                    </button>
+                    <!-- Hamburger Menu button - end -->
+
+                </div>
+                <!-- .nav-header - end -->
+
+                <!-- .nav-links - start -->
+                <ul id="nav-links" class="nav-links">
+                    <li>
+                        <a class="nav-link" href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="article.html">article</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="sources.html">sources</a>
+                    </li>
+                </ul>
+                <!-- .nav-links - end -->
+
+                <button class="btn mode-btn">dark mode</button>
+
+            </div>
+            <!-- .nav-center - end -->
+
+        </nav>
+        <!-- Navbar - end -->
+
+        <!-- Hero - start -->
+        <section class="hero">
+
+            <!-- .hero-banner - start -->
+            <div class="hero-banner">
+
+                <h1>Unleashing the Power of Tomorrow</h1>
+                <p>Stay Ahead, Stay Informed, Stay Inspired!</p>
+                <a class="btn hero-btn smooth-scroll" href="#news">explore the latest</a>
+
+            </div>
+            <!-- .hero-banner - end -->
+
+
+        </section>
+        <!-- Hero - end -->
+
+    </header>
+    <!-- Header - end -->
+
+    <main>
+
+        <!-- Featured Article - start -->
+        <section class="section" id="featured">
+
+            <!-- .section-title - start -->
+            <div class="section-title">
+                <h2><span>featured</span> article</h2>
+            </div>
+            <!-- .section-title - end -->
+
+            <!-- .section-center - start -->
+            <div class="section-center featured-center">
+
+                <!-- featured image - start -->
+                <div class="featured-img-wraper">
+                    <img class="featured-img" src="./assets/images/featured.jpg" alt="laptop screen">
+                </div>
+                <!-- featured image - end -->
+
+                <!-- .featured-info - start -->
+                <article class="featured-info">
+                    <h3>Learn Full Stack Development with Next.js and Supabase by Building a Twitter Clone</h3>
+                    <time class="date" datetime="2023-07-20">JULY
+                        20, 2023</time>
+                    <p>We just launched a course on the freeCodeCamp.org YouTube channel that will help you master full
+                        stack development with
+                        Next.js 13 and Supabase by building a Twitter clone. The course also uses Tailwind CSS and
+                        TypeScript.</p>
+                    <a class="btn" href="article.html">read more</a>
+                </article>
+                <!-- .featured-info - end -->
+
+            </div>
+            <!-- .section-center - end -->
+
+        </section>
+        <!-- Featured Article - end -->
+
+        <!-- News - start -->
+        <section class="section" id="news">
+
+            <!-- .section-title - start -->
+            <div class="section-title">
+                <h2><span>latest</span> news</h2>
+            </div>
+            <!-- .section-title - end -->
+
+            <!-- .search-container - start -->
+            <div class="section-center">
+                <form class="search-form">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input class="form-input" type="text" placeholder="search technews">
+                    <input id="search" class="btn" type="submit" value="search">
+                </form>
+            </div>
+            <!-- .search-container - start -->
+
+            <!-- .section-center - start -->
+            <div class="section-center news-center">
+
+                <!-- News Card - 1 - start -->
+                <article class="news-card">
+
+                    <!-- .news-img-container - start -->
+                    <div class="news-img-container">
+                        <img class="news-img" src="./assets/images/pexels-soumil-kumar-735911.jpg"
+                            alt="Person Typing on Computer Keyboard">
+                    </div>
+                    <!-- .news-img-container - end -->
+
+                    <!-- .news-info - start -->
+                    <div class="news-info">
+                        <h4>React Server Components – How and Why You Should Use Them in Your Code</h4>
+                        <time class="date" datetime="2023-08-01">AUGUST 1,
+                            2023</time>
+                        <p>
+                            In late 2020, the React team introduced the "Zero-Bundle-Size React Server Components"
+                            concept. Since then, the React
+                            developer community has been experimenting with and learning how to apply this
+                            forward-looking approach
+                        </p>
+
+                    </div>
+                    <!-- .news-info - end -->
+
+                    <a class="btn" href="./article.html">read more</a>
+
+                </article>
+                <!-- News Card - 1 - end -->
+
+                <!-- News Card - 2 - start -->
+                <article class="news-card">
+
+                    <!-- .news-img-container - start -->
+                    <div class="news-img-container">
+                        <img class="news-img" src="./assets/images/pexels-junior-teixeira-2047905.jpg"
+                            alt="Semi-opened Laptop Computer">
+                    </div>
+                    <!-- .news-img-container - end -->
+
+                    <!-- .news-info - start -->
+                    <div class="news-info">
+                        <h4>How to Manage State in Your Applications – useState() vs Redux</h4>
+
+                        <time class="date" datetime="2023-07-31">JULY 31,
+                            2023</time>
+
+                        <p>
+                            State management is crucial for handling an application's data, how users interact with it,
+                            and how different parts of
+                            the app behave.
+                        </p>
+
+                    </div>
+                    <!-- .news-info - end -->
+
+                    <a class="btn" href="./article.html">read more</a>
+
+                </article>
+                <!-- News Card - 2 - end -->
+
+                <!-- News Card - 3 - start -->
+                <article class="news-card">
+
+                    <!-- .news-img-container - start -->
+                    <div class="news-img-container">
+                        <img class="news-img" src="./assets/images/pexels-pixabay-220301.jpg"
+                            alt="Scientific Calculator on Wooden Surface">
+                    </div>
+                    <!-- .news-img-container - end -->
+
+                    <!-- .news-info - start -->
+                    <div class="news-info">
+                        <h4>How to Calculate Definite and Indefinite Integrals in Python</h4>
+
+                        <time class="date" datetime="2023-07-31">JULY 31,
+                            2023</time>
+
+                        <p>
+                            Python is a versatile programming language that offers libraries and tools for scientific
+                            computing and mathematical
+                            calculations.
+                        </p>
+
+
+
+                    </div>
+                    <!-- .news-info - end -->
+
+                    <a class="btn" href="./article.html">read more</a>
+
+                </article>
+                <!-- News Card - 3 - end -->
+
+            </div>
+            <!-- .section-center - start -->
+
+        </section>
+        <!-- News - ends -->
+
+    </main>
+
+    <footer>
+
+        <!-- .section-center - start -->
+        <div class="section-center">
+
+            <!-- .social-icons - start -->
+            <div class="social-icons">
+
+                <!-- Facebook -->
+                <a class="social-icon" href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a class="social-icon" href="https://www.twitter.com/" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a class="social-icon" href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+            <!-- .social-icons - end -->
+
+            <!-- .footer-text - start -->
+            <p class="footer-text">
+                &copy; 2023 <span><span class="brand">Tech</span>News</span> all rights reserved
+            </p>
+            <!-- .footer-text - end -->
+
+        </div>
+        <!-- .section-center - end -->
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
