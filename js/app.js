@@ -6,9 +6,13 @@ const searchBtn = document.querySelector("#search");
 const smoothScroll = document.querySelector(".smooth-scroll");
 
 // Disabling the search button
-searchBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-})
+if (searchBtn) {
+
+    searchBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+    });
+}
+
 
 window.addEventListener('DOMContentLoaded', () => {
 
